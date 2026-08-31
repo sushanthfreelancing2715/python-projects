@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Huzz Check 💀</title>
+
+    <style>
+        body {
+            background: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        button {
+            font-size: 22px;
+            padding: 15px 40px;
+            margin: 15px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .yes {
+            background: #22c55e;
+            color: white;
+        }
+
+        .no {
+            background: #ef4444;
+            color: white;
+        }
+
+        #message {
+            font-size: 35px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Do you need huzz? 💀</h1>
+
+    <button class="yes" onclick="yes()">YES</button>
+    <button class="no" onclick="no()">NO</button>
+
+    <div id="message"></div>
+
+    <script>
+        function yes() {
+            document.getElementById("message").innerHTML =
+                "FUH NAH TWIN 💀😭";
+
+            setTimeout(function() {
+                window.location.href =
+                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            }, 1500);
+        }
+
+        function no() {
+            document.getElementById("message").innerHTML =
+                "Good choice twin 😭";
+        }
+    </script>
+
+</body>
+</html>
